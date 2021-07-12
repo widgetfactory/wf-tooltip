@@ -1,0 +1,136 @@
+.wf-tooltip {
+  cursor: default;
+}
+
+.wf-tooltip-container {
+  position: absolute;
+  z-index: 10000;
+  display: block;
+  visibility: visible;
+  font-size: 11px;
+  line-height: 1.4;
+  opacity: 0;
+}
+
+.wf-tooltip-container h4,
+.wf-tooltip-container p {
+  left: 0;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: top;
+  background: transparent;
+  text-decoration: none;
+  color: #444;
+  /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: inherit;*/
+  text-shadow: none;
+  text-transform: none;
+  float: none;
+  position: relative;
+  width: auto;
+  height: auto;
+  white-space: normal;
+  cursor: inherit;
+  -webkit-tap-highlight-color: transparent;
+  line-height: normal;
+  font-weight: normal;
+  text-align: left;
+  box-sizing: border-box;
+  direction: ltr;
+  max-width: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -webkit-appearance: none;
+}
+
+.wf-tooltip-container.wf-tooltip-in {
+  opacity: 0.8;
+}
+
+.wf-tooltip-container .wf-tooltip-arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+}
+
+.wf-tooltip-container.wf-tooltip-top {
+  margin-top: -3px;
+  padding: 5px 0;
+}
+
+.wf-tooltip-container.wf-tooltip-top .wf-tooltip-arrow {
+  bottom: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px 5px 0;
+  border-top-color: #000;
+}
+
+.wf-tooltip-container.wf-tooltip-right {
+  margin-left: 3px;
+  padding: 0 5px;
+}
+
+.wf-tooltip-container.wf-tooltip-right .wf-tooltip-arrow {
+  top: 50%;
+  left: 0;
+  margin-top: -5px;
+  border-width: 5px 5px 5px 0;
+  border-right-color: #000;
+}
+
+.wf-tooltip-container.wf-tooltip-bottom {
+  margin-top: 3px;
+  padding: 5px 0;
+}
+
+.wf-tooltip-container.wf-tooltip-bottom .wf-tooltip-arrow {
+  top: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 0 5px 5px;
+  border-bottom-color: #000;
+}
+
+.wf-tooltip-container.wf-tooltip-left {
+  margin-left: -3px;
+  padding: 0 5px;
+}
+
+.wf-tooltip-container.wf-tooltip-left .wf-tooltip-arrow {
+  top: 50%;
+  right: 0;
+  margin-top: -5px;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #000;
+}
+
+.wf-tooltip-container .wf-tooltip-inner {
+  max-width: 200px;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #000;
+  border-radius: 4px;
+}
+
+.wf-tooltip-container .wf-tooltip-inner h4,
+.wf-tooltip-container .wf-tooltip-inner p {
+  color: #fff;
+}
+
+.wf-tooltip-container .wf-tooltip-inner p {
+  font-size: 1em;
+}
+
+.wf-tooltip-container .wf-tooltip-inner h4 {
+  font-size: 1.1em;
+  font-weight: bold;
+}
