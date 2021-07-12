@@ -10,7 +10,8 @@
 (function ($) {
     $.fn.wf_tooltip = function (options) {
         options = $.extend({
-            position: 'bottom-center'
+            position: 'bottom-center',
+            selector: '.jcetooltip'
         }, options);
 
         var tooltip;
