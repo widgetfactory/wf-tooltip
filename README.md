@@ -11,7 +11,7 @@ https://docs.joomla.org/Installing_an_extension
 
 #### Using with JCE MediaBox
 
-If you are using this plugin to convert legacy JCE MediaBox tooltips, and have JCE MediaBox 2 installed which will already convert legacy tooltips into a simple Bootstrap tooltip, ensure that this plugin is ordered above JCE MediaBox 2, so that it takes effect before MediaBox 2 loads.
+If you are using this plugin to convert legacy JCE MediaBox tooltips, and have JCE MediaBox 2 installed (which will already convert legacy tooltips into a simple Bootstrap tooltip), ensure that this plugin is ordered above JCE MediaBox 2, so that it takes effect before MediaBox 2 loads. See [Joomla Help - Extensions Manager Plugin Edit](https://help.joomla.org/proxy?keyref=Help39:Extensions_Plugin_Manager_Edit&lang=en#Details)
 
 ## Bug Reports / Support / Issues
 This plugin is in beta, so expect some probelms. Please use the Gitub Issue tracker to tell us about a any you've found.
