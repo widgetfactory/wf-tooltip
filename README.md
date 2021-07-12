@@ -2,7 +2,7 @@
 A simple tooltip plugin for Joomla, based on Bootstrap tips and the original tooltip from JCE MediaBox 1.2.x
 
 ## Download
-Downloads are available in [Releases](https://github.com/widgetfactory/wf_tooltip/releases).
+Downloads are available in [Releases](https://github.com/widgetfactory/wf-tooltip/releases/).
 
 ## Installation
 Install using the Joomla Extensions Installer
